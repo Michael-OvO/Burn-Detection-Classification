@@ -7,6 +7,7 @@ Official implementation of the paper Deep learning based burn detection model</h
 <p align = "center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Michael-OvO/Burn-Detection-Classification?label=Please%20Support%20by%20Giving%20a%20Star&logoColor=blue&style=social">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/Michael-OvO?logoColor=blue&style=social">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Michael-OvO/Burn-Detection-Classification?logoColor=blue&style=social">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/Michael-OvO/Burn-Detection-Classification?logoColor=blue&style=social">
 </p>
 <p align = "center"> <b> Author: Michael Wang</b> </p>
@@ -21,9 +22,6 @@ Official implementation of the paper Deep learning based burn detection model</h
   <a href = "https://www.kaggle.com/"> 
 <img src = "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white">
 </p> 
-
-
-
 
 
 
@@ -65,10 +63,14 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
 
 
+
 ## Special Thanks:
+
+
 
 
 
