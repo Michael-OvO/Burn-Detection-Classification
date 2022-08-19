@@ -39,7 +39,7 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 **The Kaggle Notebook:**
 
-<a href="https://www.kaggle.com/code/michaelwovo/skin-burn?scriptVersionId=103576204" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a><br>
+<a href="https://www.kaggle.com/code/michaelwovo/skin-burn/notebook?scriptVersionId=103621232" target="_blank"><img align="left" alt="Kaggle" title="Open in Kaggle" src="https://kaggle.com/static/images/open-in-kaggle.svg"></a><br>
 
 **The Colab Notebook:**
 
