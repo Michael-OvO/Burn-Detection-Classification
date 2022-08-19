@@ -43,7 +43,7 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 **The Colab Notebook:**
 
-<a href="https://colab.research.google.com/github/Michael-OvO/Burn-Detection-Classification/blob/main/colab_skin_burn(demo).ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/Michael-OvO/Burn-Detection-Classification/blob/main/notebooks/colab_skin_burn(demo).ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Todos:
 
