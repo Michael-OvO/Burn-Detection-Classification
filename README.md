@@ -60,6 +60,8 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 ## Latest Updates:
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)](https://star-history.com/#Michael-OvO/Burn-Detection-Classification&Date)
+
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
