@@ -22,11 +22,13 @@ Official implementation of the paper Deep learning based burn detection model</h
   <a href = "https://www.kaggle.com/"> 
 <img src = "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white">
       <br>
+
+English | [简体中文](.github/README_cn.md)
 </p> 
 
 ​																							
 
-​																							English | [简体中文](.github/README_cn.md)
+​																							
 
 
 ## Project Overview:
