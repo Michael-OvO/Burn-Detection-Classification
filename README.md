@@ -25,9 +25,9 @@ Official implementation of the paper Deep learning based burn detection model</h
       <br>
 </div>
 
-<p align="center">
-    English | [简体中文](.github/README_cn.md) 	
-</p>
+<div align="center">
+    English | <a href=".github/README_CN.md">简体中文</a>
+</div>
 
 ​																																											
 
