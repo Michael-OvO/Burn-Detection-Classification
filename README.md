@@ -12,7 +12,7 @@ Official implementation of the paper Deep learning based burn detection model</h
 </p>
 <p align = "center"> <b> Author: Michael Wang</b> </p>
 <p align = "center" style="bold">Supported Environment:</p> 
-<p align = "center">
+<div align = "center">
 <a href="https://colab.research.google.com/">
   <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252">
   </a>
@@ -21,10 +21,10 @@ Official implementation of the paper Deep learning based burn detection model</h
   </a>
   <a href = "https://www.kaggle.com/"> 
 <img src = "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white">
+    </a>
       <br>
-
-English | [简体中文](.github/README_cn.md)
-</p> 
+    <br>
+      English | [简体中文](.github/README_cn.md) 
 
 ​																							
 
