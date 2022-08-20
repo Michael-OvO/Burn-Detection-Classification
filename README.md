@@ -23,6 +23,7 @@ Official implementation of the paper Deep learning based burn detection model</h
 <img src = "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white">
 </p> 
 
+​																							English | [简体中文](.github/README_cn.md)
 
 
 ## Project Overview:
@@ -35,7 +36,7 @@ The burn detection accuracy has reached 84% and the mAP has reached 70%, which i
 
 ### Quick Start:
 
-The two easiest ways to get your feet wet is by directly running the notebooks created on Kaggle and Google Colab. The environments are already set up and you can directly train from scratch. (Aprox. 4-5 hours for one complete set of training) You may also find the notebooks directly in the notebooks folder.
+The two easiest ways to get your feet wet is by directly running the notebooks created on Kaggle and Google Colab. The environments are already set up and you can directly train from scratch. (Aprox. 4-5 hours for one complete set of training) You may also find the notebooks directly in the notebooks folder. **However, note that these notebook cannot achieve the accuracy as mentioned in the paper or in this repo, because the dataset was trained on a public dataset rather than my own dataset used for this project. (Unfortunately I am unable to release my own dataset used due to privacy issues, but I will release the trained weights on my own dataset)**
 
 **The Kaggle Notebook:**
 
@@ -49,6 +50,7 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 - [x] Finish Colab Notebook [2022.8.18]
 - [ ] Set up the rest of the code space
+- [ ] Add Chinese Markdown
 - [ ] Flask Environment for the trained model
 - [ ] Finish Paper
 
@@ -60,14 +62,13 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 ## Latest Updates:
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)](https://star-history.com/#Michael-OvO/Burn-Detection-Classification&Date)
-
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)]()
 
 
 ## Special Thanks:
