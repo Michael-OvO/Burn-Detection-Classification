@@ -58,7 +58,7 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 - [ ] Set up the rest of the code space
 - [ ] Add Chinese Markdown
 - [ ] Flask Environment for the trained model
-- [ ] Finish Paper
+- [x] Finish Paper
 
 ## Resources:
 
