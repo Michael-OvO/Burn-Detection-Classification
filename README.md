@@ -36,7 +36,7 @@ Official implementation of the paper Deep learning based burn detection model</h
 
 The goal of this project is to develop a deep learning-based burn detection model that converts the burn detection problem into an object detection problem. Deep learning algorithms are then used to quickly locate burn locations in images and rank burn depths according to visual features of the images.
 
-![](/Users/michaelwang/Documents/GitHub/Burn-Detection-Classification/figures/final_precision.png)
+![](./figures/final_precision.png)
 
 The burn detection precision has reached 88% and the mAP_0.5 has reached 72%, which is able to perform excellent burn depth determination and recognition in everyday medical situations. These improvements were made by modifying the network structure of the most recent Yolov7 model and using a variety of widely used target detection frameworks. This is the simplest and least expensive method of diagnosing burns that do not need expert assistance. It will play an important role in disaster relief and remote mountainous counties and towns with insufficient medical resources.
 
