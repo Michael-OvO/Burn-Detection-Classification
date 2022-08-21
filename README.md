@@ -1,7 +1,7 @@
 <H1 align="center">
 Skin Burn Detection </H1>
 <h4 align = "center">
-Official implementation of the paper Deep learning based burn detection model</h4>
+Skin Burn Detector using Yolov7</h4>
 <p align = "center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Michael-OvO/Burn-Detection-Classification?label=Please%20Support%20by%20Giving%20a%20Star&logoColor=blue&style=social">
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/Michael-OvO?logoColor=blue&style=social">
@@ -22,6 +22,7 @@ Official implementation of the paper Deep learning based burn detection model</h
     </a>
       <br>
 </div>
+
 
 <div align="center">
     English | <a href=".github/README_CN.md">简体中文</a>
@@ -52,12 +53,95 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 <a href="https://colab.research.google.com/github/Michael-OvO/Burn-Detection-Classification/blob/main/notebooks/colab_skin_burn(demo).ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+
+### Inferencing on your local machine (with the most accurate model):
+
+####  Installation:
+
+``` shell
+# or just download this entire repo
+git clone https://github.com/Michael-OvO/Burn-Detection-Classification.git
+```
+
+#### Install Dependencies (it is recommended that you set up a virtual environment through anaconda):
+
+``` shell
+cd Burn-Detection-Classification/
+pip install -r requirements.txt
+```
+
+#### Begin Inferencing:
+
+Download the pretrained weights and place them into the same master folder:
+
+`[Skin_burn_2022_8_21.pt](https://github.com/Michael-OvO/Burn-Detection-Classification/releases/download/v1.0.0/skin_burn_2022_8_21.pt)
+
+The sample images can be found in the folder inference, the name of each image corresponds to the ground truth value of each image(the model should predict those values after each run).
+
+Below is the file: `1st_degree_2.jpg` (which is a sunburn so the model should know that it is first degree)
+
+<img src=".\inference\images\1st_degree_2.jpg" style="zoom: 67%;" />
+
+On video:
+``` shell
+python detect.py --weights Skin_burn_2022_8_21.pt  --source yourvideo.mp4
+```
+
+On image:
+``` shell
+python detect.py --weights Skin_burn_2022_8_21.pt --source inference/images/first_degree_2.jpg
+```
+
+<div align="center">
+    <a href="./">
+        <img src="./inference/results/1st_degree_2.jpg" width="59%"/>
+    </a>
+</div>
+
+## Export
+
+**Pytorch to CoreML (and inference on MacOS/iOS)** <a href="https://colab.research.google.com/github/WongKinYiu/yolov7/blob/main/tools/YOLOv7CoreML.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+**Pytorch to ONNX with NMS (and inference)** <a href="https://colab.research.google.com/github/WongKinYiu/yolov7/blob/main/tools/YOLOv7onnx.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+```shell
+python export.py --weights yolov7-tiny.pt --grid --end2end --simplify \
+        --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
+```
+
+**Pytorch to TensorRT with NMS (and inference)** <a href="https://colab.research.google.com/github/WongKinYiu/yolov7/blob/main/tools/YOLOv7trt.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+```shell
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
+python export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
+git clone https://github.com/Linaom1214/tensorrt-python.git
+python ./tensorrt-python/export.py -o yolov7-tiny.onnx -e yolov7-tiny-nms.trt -p fp16
+```
+
+**Pytorch to TensorRT another way** <a href="https://colab.research.google.com/gist/AlexeyAB/fcb47ae544cf284eb24d8ad8e880d45c/yolov7trtlinaom.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> <details><summary> <b>Expand</b> </summary>
+
+
+```shell
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
+python export.py --weights yolov7-tiny.pt --grid --include-nms
+git clone https://github.com/Linaom1214/tensorrt-python.git
+python ./tensorrt-python/export.py -o yolov7-tiny.onnx -e yolov7-tiny-nms.trt -p fp16
+
+# Or use trtexec to convert ONNX to TensorRT engine
+/usr/src/tensorrt/bin/trtexec --onnx=yolov7-tiny.onnx --saveEngine=yolov7-tiny-nms.trt --fp16
+```
+
+</details>
+
+Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
+
 ## Todos:
 
 - [x] Finish Colab Notebook [2022.8.18]
-- [ ] Set up the rest of the code space
+- [x] Set up the rest of the code space
 - [x] Add Chinese Markdown
-- [ ] Flask Environment for the trained model (or other kind of web demo using the finally trained classifier)
+- [ ] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier)
 - [ ] Finish Paper
 
 ## Resources:
