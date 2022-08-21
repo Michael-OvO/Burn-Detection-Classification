@@ -1,5 +1,3 @@
-
-
 <H1 align="center">
 Skin Burn Detection </H1>
 <h4 align = "center">
@@ -64,9 +62,17 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 ## Resources:
 
+Please refer to the resources folder
+
 - [ ] Pretrained Models and weights
 - [ ] Datasets
 - [ ] Burn Guidelines
+- [ ] Appendix 1
+- [ ] Appendix 2
+- [ ] Appendix 3
+- [ ] Appendix 4
+- [ ] Appendix 5
+- [ ] Appendix 6
 
 ## Latest Updates:
 
