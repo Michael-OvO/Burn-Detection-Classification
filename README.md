@@ -73,15 +73,13 @@ pip install -r requirements.txt
 
 #### Begin Inferencing:
 
-Download the pretrained weights and place them into the same master folder:
-
-`[Skin_burn_2022_8_21.pt](https://github.com/Michael-OvO/Burn-Detection-Classification/releases/download/v1.0.0/skin_burn_2022_8_21.pt)
+Download the pre-trained weights and place them into the same master folder: [Skin_burn_2022_8_21.pt](https://github.com/Michael-OvO/Burn-Detection-Classification/releases/download/v1.0.0/skin_burn_2022_8_21.pt)
 
 The sample images can be found in the folder inference, the name of each image corresponds to the ground truth value of each image(the model should predict those values after each run).
 
-Below is the file: `1st_degree_2.jpg` (which is a sunburn so the model should know that it is first degree)
+Below is the file: `1st_degree_2.jpg` (which is sunburn so the model should know that it is first degree)
 
-<img src=".\inference\images\1st_degree_2.jpg" style="zoom: 67%;" />
+<img src=".\inference\images\1st_degree_2.jpg" style="zoom: 67%;" align="center" />
 
 On video:
 ``` shell
