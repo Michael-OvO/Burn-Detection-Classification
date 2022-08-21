@@ -79,9 +79,16 @@ The sample images can be found in the folder inference, the name of each image c
 
 Below is the file: `1st_degree_2.jpg` (which is sunburn so the model should know that it is first degree)
 
-<img src=".\inference\images\1st_degree_2.jpg" style="zoom: 67%;" align="center" />
+<div align="center">
+    <a href="./">
+        <img src="./inference/images/1st_degree_2.jpg" width="59%"/>
+    </a>
+</div>
+
+
 
 On video:
+
 ``` shell
 python detect.py --weights Skin_burn_2022_8_21.pt  --source yourvideo.mp4
 ```
@@ -97,7 +104,9 @@ python detect.py --weights Skin_burn_2022_8_21.pt --source inference/images/firs
     </a>
 </div>
 
-## Export
+
+
+## Export (Same  as  Yolov7: )
 
 **Pytorch to CoreML (and inference on MacOS/iOS)** <a href="https://colab.research.google.com/github/WongKinYiu/yolov7/blob/main/tools/YOLOv7CoreML.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
