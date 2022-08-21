@@ -67,7 +67,7 @@ Please refer to the resources folder
 - [ ] Pretrained Models and weights
 - [ ] Datasets
 - [ ] Burn Guidelines
-- [ ] Appendix 1
+- [x] Appendix 1
 - [ ] Appendix 2
 - [ ] Appendix 3
 - [ ] Appendix 4
