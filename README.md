@@ -146,21 +146,21 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 ## Todos:
 
 - [x] Finish Colab Notebook [2022.8.18]
-- [x] Set up the rest of the code space
-- [x] Add Chinese Markdown
-- [ ] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier)
-- [ ] Finish Paper
+- [x] Set up the rest of the code space [2022.8.21]
+- [x] Add Chinese Markdown [2022.8.21]
+- [ ] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier) - coming soon 
+- [ ] Finish Paper 
 
 ## Resources:
 
 Please refer to the resources folder
 
-- [ ] Pretrained Models and weights
+- [x] Pretrained Models and weights
 - [ ] Datasets
 - [ ] Burn Guidelines
-- [x] Appendix 1
-- [ ] Appendix 2
-- [ ] Appendix 3
+- [x] Appendix 1 [yolov5 runs]
+- [x] Appendix 2 [yolov7 runs]
+- [ ] Appendix 3 [Hyp-evolution]
 - [ ] Appendix 4
 - [ ] Appendix 5
 - [ ] Appendix 6
@@ -172,11 +172,14 @@ Please refer to the resources folder
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
-
 [![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)]()
 
 
 ## Special Thanks:
+
+I dedicate this space to those who helped me a lot in the process of doing this project, a huge shout-out to the following people mentioned below: 
+
+  <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 33%;"></a>
 
 
 
@@ -194,5 +197,6 @@ Please refer to the resources folder
 * [https://github.com/DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)
 * [https://github.com/JUGGHM/OREPA_CVPR2022](https://github.com/JUGGHM/OREPA_CVPR2022)
 * [https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose](https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose)
+* [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
 
 </details>
