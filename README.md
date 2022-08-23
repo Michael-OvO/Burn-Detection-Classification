@@ -172,14 +172,14 @@ Please refer to the resources folder
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
-[![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)]()
+![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)
 
 
 ## Special Thanks:
 
 I dedicate this space to those who helped me a lot in the process of doing this project, a huge shout-out to the following people mentioned below: 
 
-  <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 33%;"></a>
+  <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> <a href="https://github.com/femj007"><img src="https://avatars.githubusercontent.com/u/26188861?v=4" height="auto" width="200" style="border-radius: 50%; zoom: 20%;"></a> 
 
 
 
