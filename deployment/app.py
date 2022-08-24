@@ -12,7 +12,15 @@ app = Flask(__name__)
 RESULT_FOLDER = os.path.join('static')
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
-model =torch.hub.load("WongKinYiu/yolov7", 'custom','best.pt')
+def find_model():
+    for f  in os.listdir:
+        if f.endwith(".pt"):
+            return f
+    print("please place a model file in this directory!")
+
+
+model_name = find_model()
+model =torch.hub.load("WongKinYiu/yolov7", 'custom',model_name)
 
 model.eval()
 
