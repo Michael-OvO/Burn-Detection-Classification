@@ -13,12 +13,11 @@ RESULT_FOLDER = os.path.join('static')
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
 def find_model():
-    for f  in os.listdir:
-        if f.endwith(".pt"):
+    for f  in os.listdir():
+        if f.endswith(".pt"):
             return f
     print("please place a model file in this directory!")
-
-
+    
 model_name = find_model()
 model =torch.hub.load("WongKinYiu/yolov7", 'custom',model_name)
 
