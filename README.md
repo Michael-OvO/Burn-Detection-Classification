@@ -53,7 +53,37 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 <a href="https://colab.research.google.com/github/Michael-OvO/Burn-Detection-Classification/blob/main/notebooks/colab_skin_burn(demo).ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+### Running with Flask API
 
+Flask is also an easy and quick alternative approach. It does not require any setup or run any python files to test with any images. For this project, I have already developed a Flask web app (run locally) that can analyze skin burn images from your own machine. 
+
+![](./figures/Flask_webapp_view2.png)
+
+![](./figures/Flask_webapp_view3.png)
+
+To run this, please make sure you follow the following steps:
+
+From the release page download the latest version of my released pre-trained model, and place it directly into the `./deployment/` folder, note that there should **only be one model at one time in this directory**, or else the script won't find the correct weight!
+
+Make sure you have met the following requirements:
+
+\- PyTorch >= 1.6
+
+\- flask
+
+\- and dependencies required by Yolov7 (if you git cloned this repo then simply run ``` pip install -r requirements.txt```) 
+
+then, to launch the app, run the following command:
+
+```bash
+$ FLASK_ENV=development FLASK_APP=app.py flask run
+```
+
+then, visit http://localhost:5000/ in your browser.
+
+You can search and download some skin burn images on the internet, or you can also use some pictures provided in the inference folder.
+
+The framework can also be used on other yolov7 models as well as custom yolov7 models, so if you are interested in making one similar please check the following repo: [link to repo](https://github.com/Michael-OvO/Yolov7-Flask)
 
 ### Inferencing on your local machine (with the most accurate model):
 
