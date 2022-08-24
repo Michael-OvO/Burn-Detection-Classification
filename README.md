@@ -148,7 +148,7 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 - [x] Finish Colab Notebook [2022.8.18]
 - [x] Set up the rest of the code space [2022.8.21]
 - [x] Add Chinese Markdown [2022.8.21]
-- [ ] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier) - coming soon 
+- [x] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier) - [2022.8.24]
 - [ ] Finish Paper 
 
 ## Resources:
@@ -172,8 +172,6 @@ Please refer to the resources folder
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
-![Star History Chart](https://api.star-history.com/svg?repos=Michael-OvO/Burn-Detection-Classification&type=Date)
-
 
 ## Special Thanks:
 
