@@ -176,10 +176,9 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 ## Todos:
 
 - [x] Finish Colab Notebook [2022.8.18]
-
-- [ ] Set up the rest of the code space [2022.8.21]
-- [ ] Add Chinese Markdown [2022.8.21]
-- [ ] Flask Environment for the trained model [2022.8.24]
+- [x] Set up the rest of the code space [2022.8.21]
+- [x] Add Chinese Markdown [2022.8.21]
+- [x] Flask Environment for the trained model [2022.8.24]
 - [x] Finish Paper [2022.8.26]
 
 ## Resources:
