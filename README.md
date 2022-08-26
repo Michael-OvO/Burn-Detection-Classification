@@ -57,11 +57,11 @@ The two easiest ways to get your feet wet is by directly running the notebooks c
 
 Flask is also an easy and quick alternative approach. It does not require any setup or run any python files to test with any images. For this project, I have already developed a Flask web app (run locally) that can analyze skin burn images from your own machine. 
 
-![](./figures/Flask_webapp_view2.png)
+![](./figures/Flask_webappview2.png)
 
-![](./figures/Flask_webapp_view3.png)
+![](./figures/Flask_webappview3.png)
 
-To run this, please make sure you follow the following steps:
+To run this, please make sure you follow the steps below:
 
 From the release page download the latest version of my released pre-trained model, and place it directly into the `./deployment/` folder, note that there should **only be one model at one time in this directory**, or else the script won't find the correct weight!
 
@@ -179,7 +179,7 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 - [x] Set up the rest of the code space [2022.8.21]
 - [x] Add Chinese Markdown [2022.8.21]
 - [x] Flask Environment for the trained model (or other kinds of web demo using the finally trained classifier) - [2022.8.24]
-- [ ] Finish Paper 
+- [x] Finish Paper 
 
 ## Resources:
 
@@ -190,7 +190,7 @@ Please refer to the resources folder
 - [ ] Burn Guidelines
 - [x] Appendix 1 [yolov5 runs]
 - [x] Appendix 2 [yolov7 runs]
-- [ ] Appendix 3 [Hyp-evolution]
+- [x] Appendix 3 [Hyp-evolution]
 - [ ] Appendix 4
 - [ ] Appendix 5
 - [ ] Appendix 6

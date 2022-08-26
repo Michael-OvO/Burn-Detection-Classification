@@ -12,6 +12,7 @@ app = Flask(__name__)
 RESULT_FOLDER = os.path.join('static')
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
+# finds the model inside your directory automatically - works only if there is one model
 def find_model():
     for f  in os.listdir():
         if f.endswith(".pt"):
@@ -43,9 +44,17 @@ def predict():
         results = get_prediction(img_bytes)
         results.save(save_dir='static')
         filename = 'image0.jpg'
+        
+        return render_template('result.html',result_image = filename,model_name = model_name)
 
-        #return redirect('static/image0.jpg')
-        return render_template('result.html',result_image = filename)
+    return render_template('index.html',model_name=model_name)
+@app.route('/detect', methods=['GET', 'POST'])
+def handle_video():
+    # some code to be implemented later
+    pass
 
-    return render_template('index.html')
-   
+@app.route('/webcam', methods=['GET', 'POST'])
+def web_cam():
+    # some code to be implemented later
+    pass
+
