@@ -29,6 +29,7 @@ Skin Burn Detector using Yolov7</h4>
 	<br>
 	<br>
 	<img src = https://repobeats.axiom.co/api/embed/249bb0571f23c4ff40d79ff2544439732c31e94d.svg >
+	<img src = ./introduction_stats.svg>
 </div>
 																																										
 
@@ -204,6 +205,9 @@ Please refer to the resources folder
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Michael-OvO/Burn-Detection-Classification?style=for-the-badge">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Michael-OvO/Burn-Detection-Classification?color=orange&style=for-the-badge">
 </p>
+
+## Contributors & People Involved:
+![](./people.svg)
 
 ## Special Thanks:
 
