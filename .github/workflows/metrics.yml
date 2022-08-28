@@ -14,20 +14,19 @@ jobs:
       - name: Head
         uses: lowlighter/metrics@latest
         with:
-          base: "./figures"
+          base: header
           config_timezone: Asia/Shanghai
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           filename: introduction_stats.svg
           repo: Burn-Detection-Classification
-          base: header
           plugin_introduction: yes
           
       - name: People
         uses: lowlighter/metrics@latest
         with:
-          base: "./figures"
+          base: ""
           config_timezone: Asia/Shanghai
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
