@@ -29,8 +29,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           filename: people.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: repository
           repo: Burn-Detection-Classification
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers, sponsors
