@@ -22,6 +22,7 @@ jobs:
           filename: introduction_stats.svg
           repo: Burn-Detection-Classification
           plugin_introduction: yes
+          output_action: pull-request-merge
           
       - name: People
         uses: lowlighter/metrics@latest
@@ -35,5 +36,6 @@ jobs:
           repo: Burn-Detection-Classification
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers, sponsors
+          output_action: pull-request-merge
           
 
