@@ -14,6 +14,8 @@ jobs:
       - name: Head
         uses: lowlighter/metrics@latest
         with:
+          base: "./figures"
+          config_timezone: Asia/Shanghai
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
@@ -21,10 +23,12 @@ jobs:
           repo: Burn-Detection-Classification
           base: header
           plugin_introduction: yes
-
+          
       - name: People
         uses: lowlighter/metrics@latest
         with:
+          base: "./figures"
+          config_timezone: Asia/Shanghai
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
@@ -32,4 +36,5 @@ jobs:
           repo: Burn-Detection-Classification
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers, sponsors
+          
 
