@@ -27,6 +27,7 @@ Skin Burn Detector using Yolov7</h4>
 <div align="center">
     English | <a href=".github/README_CN.md">简体中文</a>
 	<br>
+	<br>
 	<img src = https://repobeats.axiom.co/api/embed/249bb0571f23c4ff40d79ff2544439732c31e94d.svg >
 </div>
 																																										
