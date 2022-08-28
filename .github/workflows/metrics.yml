@@ -18,12 +18,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           filename: introduction_stats.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: repository
           repo: Burn-Detection-Classification
           base: header
           plugin_introduction: yes
-          
+
       - name: People
         uses: lowlighter/metrics@latest
         with:
