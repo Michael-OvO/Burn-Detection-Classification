@@ -30,12 +30,12 @@ Skin Burn Detector using Yolov7</h4>
 	<br>
 	<img src = https://repobeats.axiom.co/api/embed/249bb0571f23c4ff40d79ff2544439732c31e94d.svg >
 </div>
-																																										
+​																																										
 
 
 ## Project Overview:
 
-The goal of this project is to develop a deep learning-based burn detection model that converts the burn detection problem into an object detection problem. Deep learning algorithms are then used to quickly locate burn locations in images and rank burn depths according to visual features of the images.
+The goal of this project is to develop a deep learning-based burn detection model that converts the burn detection problem into an object detection problem. Deep learning algorithms are then used to quickly locate burn locations in images and rank burn depths according to visual features of the images. The project also slightly modified the official Yolo structure so that it is optimized for the task of burn reognition. 
 
 ![](./figures/final_precision.png)
 
@@ -182,6 +182,8 @@ Tested with: Python 3.7.13, Pytorch 1.12.0+cu113
 - [x] Add Chinese Markdown [2022.8.21]
 - [x] Flask Environment for the trained model [2022.8.24]
 - [x] Finish Paper [2022.8.26]
+- [x] Attention modules! [2022.12.6]
+- [x] Modified Backbones [2022.12.6]
 
 ## Resources:
 
@@ -193,9 +195,9 @@ Please refer to the resources folder
 - [x] Appendix 1 [yolov5 runs]
 - [x] Appendix 2 [yolov7 runs]
 - [x] Appendix 3 [Hyp-evolution]
-- [ ] Appendix 4
-- [ ] Appendix 5
-- [ ] Appendix 6
+- [x] Appendix 4
+- [x] Appendix 5
+- [x] Appendix 6
 
 ## Latest Updates:
 
