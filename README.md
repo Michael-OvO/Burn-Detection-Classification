@@ -30,7 +30,8 @@ Skin Burn Detector using Yolov7</h4>
 	<br>
 	<img src = https://repobeats.axiom.co/api/embed/249bb0571f23c4ff40d79ff2544439732c31e94d.svg >
 </div>
-​																																										
+
+- Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces/michaelwja/burn-detection) using Gradio. Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/michaelwja/burn-detection)
 
 
 ## Project Overview:
